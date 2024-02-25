@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Array Example</title>
+</head>
+<body>
+    <h1 id="month-name"></h1>
+
+    <script>
+        const meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+        const sixthMonthName = meses[5];
+
+        document.getElementById('month-name').innerText = `elnombre del mes 6 es: ${sixthMonthName}`;
+    </script>
+</body>
+</html>
